@@ -32,7 +32,9 @@ nav{
     margin-top:8px;
 }
 
-
+.yellow{
+    color:yellowgreen;
+}
 
 .links{
     display: flex;
@@ -41,12 +43,12 @@ nav{
 }
 
 .middle{
+
     background: url(/everything/image/background.png);
     padding-top: 20px;
     width: 100%;
     padding-bottom: 20px;
-    height: 100%;
-    
+    min-height: 100%;
 }
 
 .midBody{
@@ -54,7 +56,7 @@ nav{
     background: white;
     padding-bottom: 30px;
     border: 1px solid rgba(0, 0, 0, 0.247);
-
+    margin-bottom: 120px;
 }
 
 .clearfix::After {
@@ -95,9 +97,7 @@ nav{
     padding-right: 20px;
 }
 
-.bod{
 
-}
 
 
 .bod .txt{
@@ -116,4 +116,23 @@ nav{
     height: 80px;
     position: fixed;
     bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin-right: 4%;
+}
+
+.msg{
+    resize: none;
+}
+
+.btn-col{
+    background-color: #5aaaa5;
+}
+
+.btn-col:hover{
+    background-color: #5aaaa571;
 }
